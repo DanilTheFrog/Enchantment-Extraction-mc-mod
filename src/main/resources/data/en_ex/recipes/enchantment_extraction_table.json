@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aTa"
+  ],
+  "key": {
+    "a": {
+      "item": "en_ex:crystallite"
+    },
+    "T": {
+      "item": "en_ex:enchanting_table"
+    }
+  },
+  "result": {
+    "item": "en_ex:enchantment_extraction_table"
+  }
+}

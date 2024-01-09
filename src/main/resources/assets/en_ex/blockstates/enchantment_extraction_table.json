@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "en_ex:block/enchantment_extraction_table"
+    }
+  }
+}

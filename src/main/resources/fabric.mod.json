@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "en_ex",
+  "version": "${version}",
+
+  "name": "Enchantment Extraction",
+  "description": "This mod will allow you to extract enchantments from items",
+  "authors": [
+    "DanilTheFrog"
+  ],
+  "contact": {
+    "homepage": "https://github.com/DanilTheFrog",
+    "sources": "https://github.com/DanilTheFrog/Enchantment-Extraction-mc-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/en_ex/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.joloy.en_ex.EnchantmentExtraction"
+    ],
+    "client": [
+      "org.joloy.en_ex.EnchantmentExtractionClient"
+    ]
+  },
+  "mixins": [
+    "en_ex.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.18.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
